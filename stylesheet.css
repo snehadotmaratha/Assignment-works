@@ -34,14 +34,20 @@ ul {
   .flex-container > div {
     width: 25%;
     text-align: center;
+  
     line-height: 7px;
-    font-size: 30px;
+    font-size: 13px;
     border-color: #fff;
     border-width: 2px;
     border-style: double;
     border-radius: 10px;
     margin-left: 30px;
     margin-top: -2px;
+  }
+  #back{
+    background-color: rgb(4, 4, 56);
+    padding-top: 20px;
+    padding-bottom:20px;
   }
 
   #avatar{
@@ -50,7 +56,7 @@ ul {
     height: 70px;
     background-color: white;
     background-size: cover;
-    
+   
     
     
   }
@@ -69,7 +75,7 @@ ul {
     width: 25%;
     text-align: center;
     line-height: 7px;
-    font-size: 30px;
+    font-size: 13px;
     border-radius: 10px;
     margin-left: 30px;
     
@@ -78,6 +84,9 @@ ul {
     text-align: center;
     margin: 100px 500px;
     border-radius:20px ;
+    z-index: 2;
+    position: absolute;
+    padding-bottom: 60px;
   }
   #registration{
     width: 100%;
@@ -105,7 +114,13 @@ ul {
     outline: 0px;
   }
   
-  
+ #div{
+  background-color: rgb(4, 4, 56); 
+  background-size: 100% 700px;
+  z-index: 1;
+  position: relative;
+
+ } 
 
   
    
