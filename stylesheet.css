@@ -33,7 +33,7 @@
   background-color: rgb(4,4,56);
   border-radius: 10px;
   text-align: center;
-  margin-left: 60px;
+  margin-left: 110px;
   position:absolute;
   z-index:2 ;
 }
@@ -48,10 +48,7 @@
   position:absolute;
   z-index: 1;
  
-  width: 500px;
- 
-  left: 500px;
-  right: 500px;
+  
   
  } 
 
