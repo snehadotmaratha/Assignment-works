@@ -1,270 +1,57 @@
-.banner{
-  background-color: rgb(4, 4, 56);
- }
- ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(4, 4, 56);
-   }
-   li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    
-    color: rgb(133, 133, 5);
-  }
-  .had{
-    color: white;
-    margin-left: 40px;
-  }
-  #img{
-    float:right; 
-  width: 500px;
-  height: 500px;
-  margin-right: 14px;
-  }
-  .a{
-    color: white;
-    font-size: 60px; 
-    margin-left: 40px;
-  }
-  .b{
-    color: rgb(129, 129, 4);
-     font-size: 40px;
-      margin-left: 40px;
-  }
-  .c{
-    color: white;  
-    margin-left: 40px;
-  }
-  #but{
-    color : rgb(75, 9, 75);
-     margin-left: 40px;
-      width: 150px;
-      padding-bottom: 10px;
-      padding-top:10px ;
-      text-align: center;
-      margin-bottom: 20px;
-      font-size: 20px;
-  }
-  #h1{
-    text-align: center; 
-    font-size: 50px;
-  }
-  #img1{
-    width:350;
-    height: 350;
-     margin-left: 450px;
-  }
-  #par{
-    text-align: center;
-  }
-  #but1{
-    background-color: black; 
-     margin-left: 600px; 
-     color: white; 
-     width: 150px;
-     padding-bottom: 10px;
-     padding-top: 10px ;
-  }
-  .had1{
-    text-align:center;
-    color: rgb(4, 4, 56);
-    padding-top: 30px;
-    font-size: 50px;
-  }
-  .par1{
-    text-align: center; 
-    color: rgb(4, 4, 56)
-  }
- .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  
-  .flex-container > div {
-    width: 25%;
-    text-align: center;
-  
-    line-height: 7px;
-   
-    font-size: 13px;
-    border-color: #fff;
-    border-width: 2px;
-    border-style: double;
-    border-radius: 10px;
-    margin-left: 30px;
-    margin-top: -2px;
-  }
-  #h2{
-    text-align: center; 
-    font-size: 50px;
-    color: white;
-    padding-top: 30px;
-  }
-  #par2{
-    text-align: center;
-    color: white;
-  }
-  #back{
-    background-color: rgb(4, 4, 56);
-    padding-top: 20px;
-    padding-bottom:20px;
-    margin-bottom: 30px;
-  }
+.navbar{
+  background-color: rgb(4,4,56);
+}
 
-  #avatar{
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    background-color: white;
-    background-size: cover;
-  }
-  .h3{
-     color: white;
-  } 
-  #but2{
-    background-color: white; 
-     margin-left: 70px;
-     color:black;
-      width:  170px;
-      padding-bottom: 10px;
-     padding-top: 10px ;
-     margin-bottom: 30px;
-  } 
-  #A{
-    color: rgb(4, 4, 56);
-     text-align: center;
-      font-size: 50px;
-  }
-  #B{
-    text-align: center;
-  }
-  .pad{
-    padding-top: 40px;
-  }
-  
-  .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    
-  }
-  
-  .flex-container > div {
-    background-color: #f1f1f1;
-    width: 25%;
-    text-align: center;
-    line-height: 7px;
-    font-size: 13px;
-    border-radius: 10px;
-    margin-left: 30px;
-    
-  }
-  #butx{
-    margin-left: 230px; 
-    background-color: black;
-     color: white;
-      width: 150px;
-      padding-bottom: 10px;
-      padding-top: 10px ;
-      margin-top: 30px;
-  }
-  #buty{
-    margin-left: 220px; 
-    background-color: black; 
-    color: white;
-     width: 150px;
-     padding-bottom: 10px;
-     padding-top: 10px ;
-     margin-top: 30px;
-  }
-  #butz{
-    margin-left: 220px; 
-    background-color: black;
-     color: white;
-      width: 150px;
-      padding-bottom: 10px;
-      padding-top: 10px ;
-      margin-top: 30px;
-  }
-  .simple-form{
-    text-align: center;
-    padding-bottom: 0px;
-    margin: 100px 500px;
-    border-radius:20px ;
-    position: relative;
-    z-index: 2;
-    
-  
-  
-    grid-area: overlap;
-    align-self: flex-end;
-    justify-self: last baseline;
-  }
-  #registration{
-    width: 100%;
-    background-color: rgb(4,4,56);
-    padding: 50px 0px;
-    border-radius: 20px;
-  }
-  #button{
-    width: 250px;
-    padding: 10px;
-    border-radius: 5px;
-    outline: 0px;
-  }
-  #textarea{
-    width: 250px;
-    padding:10px;
-    border-radius: 5px;
-    outline: 0px;
-  }
-  #butt{
-    width: 150px;
-    padding: 10px;
-    border-radius: 20px;
-    color: red;
-    outline: 0px;
-  }
-  
-  #div{
+.crow{
+  background-color: rgb(4,4,56);
+}
+
+.card{
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.h1{
+  font-size: 70px;
+}
+.img-fluid{
+  width: 500px;
+  height: 500;
+}
+.bg{
+  background-color: rgb(4,4,56);
+  color: white;
+}
+.img{
+  padding: 15px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+
+  border-radius: 50px;
+}
+.modal-content {
+  background-color: rgb(4,4,56);
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 60px;
+  position:absolute;
+  z-index:2 ;
+}
+.btn-lg-round {
+	border-radius: 24px;
+}
+
+.per{
+
   background-color: rgb(4, 4, 56); 
   background-size: 100%;
-  padding-top: 130px;
-  position: relative;
+  position:absolute;
   z-index: 1;
-  text-align: center;
-  color: white;
-  grid-area:overlap;
+ 
+  width: 500px;
+ 
+  left: 500px;
+  right: 500px;
   
-  align-self: flex-end;
-  justify-self: last baseline;
-
  } 
-  #button{
-      border-radius:10px;
- }
-   
- .container{
-       display: grid;
-       grid-template-columns: 1fr;
-       grid-template-rows: 1fr;
-       grid-template-areas: "overlap" ;
- }
+
