@@ -15,7 +15,7 @@
 }
 .img-fluid{
   width: 500px;
-  height: 500;
+  height: 500px;
 }
 .bg{
   background-color: rgb(4,4,56);
@@ -33,7 +33,7 @@
   background-color: rgb(4,4,56);
   border-radius: 10px;
   text-align: center;
-  margin-left: 110px;
+  margin-left: 50px;
   position:absolute;
   z-index:2 ;
 }
@@ -44,9 +44,10 @@
 .per{
 
   background-color: rgb(4, 4, 56); 
-  background-size: 100%;
-  position:absolute;
-  z-index: 1;
+  margin-top: 150px;
+  padding-bottom: 60px;
+  padding-top: 200px;
+  margin-bottom: 20px;
  
   
   
